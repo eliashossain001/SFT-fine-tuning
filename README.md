@@ -33,17 +33,17 @@ sft-clean/
 
 ---
 
-## 🚀 Features
+## Features
 
-- ✅ Support for multiple LLMs (Qwen2.5, LLaMA3.2)
-- ✅ Modular design with separate training, evaluation, and deployment
-- ✅ Config generator for fast experimentation
-- ✅ Hugging Face model hub deployment
-- ✅ LoRA + PEFT integration ready
+-  Support for multiple LLMs (Qwen2.5, LLaMA3.2)
+-  Modular design with separate training, evaluation, and deployment
+-  Config generator for fast experimentation
+-  Hugging Face model hub deployment
+-  LoRA + PEFT integration ready
 
 ---
 
-## 🛠️ Setup Instructions
+##  Setup Instructions
 
 ```bash
 # Clone the repo
@@ -60,19 +60,19 @@ pip install -r requirements.txt
 
 ---
 
-## 🧪 Training Example
+##  Training Example
 
 ```bash
 python training/train_cwe_qwen2p5_3b_sft.py
 ```
 
-## 📊 Evaluation Example
+##  Evaluation Example
 
 ```bash
 python evaluation/evaluate_sft_results.py
 ```
 
-## ☁️ Deployment Example
+##  Deployment Example
 
 ```bash
 python deployment/deploy_to_huggingface.py
@@ -80,7 +80,7 @@ python deployment/deploy_to_huggingface.py
 
 ---
 
-## 🧩 Environment Variables (for secrets)
+##  Environment Variables (for secrets)
 
 Use a `.env` file or export environment variables before running:
 
@@ -90,12 +90,12 @@ export HF_TOKEN="your_huggingface_token"
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Feel free to fork, improve, or raise issues!
 
 ---
 
-## 📜 License
+##  License
 
 MIT License
